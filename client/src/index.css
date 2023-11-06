@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* openweathermapapi data */
+.header-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.location-form {
+  
+}
+
+.weather-data {
+  
+}
+
+
+/* ticketmaster api data */
+.events-container {
+  flex: 1;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.event {
+  display: flex;
+  align-items: start; 
+  margin-bottom: 20px;
+  width: 50%; 
+  border-style: groove;
+  
+}
+
+.event-image {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px; 
+}
+
+.event-info {
+  display: flex;
+  flex-direction: column; 
+  align-items: start; 
+  
+}
+/* places api image generation */
+.place-image{
+  width: 100px;
+  height: 100px;
+  margin-right: 20px; 
+  background-color: lightgray;
+}
+/* parent for both apis */
+.content-container {
+  display: flex;
+  justify-content: space-around;
+}
+/* header */
+.header {
+  
+  background-color: #282c34;
+  padding: 5px;
+  color: white;
+}
+.header a {
+  color: #61dafb;
+  margin: 0 10px;
+}
