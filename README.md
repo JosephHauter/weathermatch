@@ -1,70 +1,57 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+Weather Match it provides you acitivites to do based on the weather or sight seeing for your hangouts or dates!
 
-In the project directory, you can run:
+## Installation
 
-### `npm start`
+This project has a `server` and a `client` directory, each with its own set of dependencies. You need to install these dependencies separately.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Server
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Open your terminal.
+2. Navigate to the `server` directory with `cd /path-to-your-project/server`.
+3. Install the dependencies with `npm install`.
 
-### `npm test`
+### Client
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Open a new terminal.
+2. Navigate to the `client` directory with `cd /path-to-your-project/client`.
+3. Install the dependencies with `npm install`.
 
-### `npm run build`
+## Environment Variables
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This project uses environment variables to keep sensitive information like API keys secure. Follow these steps to add your own environment variables:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. In the `server` directory, create a new file and name it `.env`.
+2. Open the `.env` file in a text editor.
+3. Add your API keys in the following format: `API_KEY_NAME=YourApiKey`. Replace `API_KEY_NAME` with the name of the API key and `YourApiKey` with your actual API key. Each API key should be on a new line.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Here's an example of what your `.env` file might look like:
 
-### `npm run eject`
+```plaintext
+OPEN_WEATHER_API_KEY=YourOpenWeatherApiKey
+TICKETMASTER_API_KEY=YourTicketmasterApiKey
+FOURSQUARE_API_KEY=YourFoursquareApiKey
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+## Running the Project
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+After installing the dependencies, you can run the project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Server
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. In the terminal where you installed the server dependencies, run the server with `npm run dev`.
 
-## Learn More
+### Client
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. In the terminal where you installed the client dependencies, start the client with `npm start`.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Now, your project should be running!
 
-### Code Splitting
+## Screenshot of project
+![preview](https://github.com/CSCI39548-Fall2023/individual-project-JosephHauter/assets/58018853/30b07b2f-ed52-4831-87b4-d300c75fe4ab)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Video
+https://github.com/CSCI39548-Fall2023/individual-project-JosephHauter/assets/58018853/6179f6bf-c1b9-4cea-ba78-32e50a81a8b3
