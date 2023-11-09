@@ -1,3 +1,9 @@
+## Screenshot of project
+![preview](https://github.com/CSCI39548-Fall2023/individual-project-JosephHauter/assets/58018853/30b07b2f-ed52-4831-87b4-d300c75fe4ab)
+
+
+## Video
+https://github.com/CSCI39548-Fall2023/individual-project-JosephHauter/assets/58018853/6179f6bf-c1b9-4cea-ba78-32e50a81a8b3
 
 ## Description
 
@@ -49,9 +55,3 @@ After installing the dependencies, you can run the project.
 
 Now, your project should be running!
 
-## Screenshot of project
-![preview](https://github.com/CSCI39548-Fall2023/individual-project-JosephHauter/assets/58018853/30b07b2f-ed52-4831-87b4-d300c75fe4ab)
-
-
-## Video
-https://github.com/CSCI39548-Fall2023/individual-project-JosephHauter/assets/58018853/6179f6bf-c1b9-4cea-ba78-32e50a81a8b3
